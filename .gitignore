@@ -116,5 +116,5 @@ dist
 .pnp.*
 
 # OpenShift
-.ocp_context
+.ocpeasy
 deploy.tpl.yml
