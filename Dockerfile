@@ -32,4 +32,6 @@ RUN $POETRY_HOME/bin/poetry config -vvv virtualenvs.create false
 RUN poetry install --no-dev
 
 COPY . ./
-ENTRYPOINT ["python3 app.py"]
+COPY docker-entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
