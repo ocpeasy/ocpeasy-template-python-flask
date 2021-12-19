@@ -2,7 +2,7 @@
 name = "flask-poetry-app"
 version = "0.1.0"
 description = ""
-authors = ["David Barrat <david_andre.barrat@novartis.com>"]
+authors = ["David Barrat <david.barrat@protonmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
